@@ -1,6 +1,6 @@
 ﻿using WebGoatCore.Models;
 using System.Collections.Generic;
-using System.Linq;
+using System.Linq; 
 
 namespace WebGoatCore.Data
 {
