@@ -4,6 +4,7 @@ WORKDIR ./sources
 
 
 # copy everything else and build app
+
 COPY WebGoatCore/. ./sources/WebGoatCore/
 WORKDIR ./sources/WebGoatCore
 RUN dotnet publish -c release -o /app 
