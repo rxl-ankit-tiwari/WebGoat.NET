@@ -2,6 +2,7 @@
 FROM mcr.microsoft.com/dotnet/sdk:5.0 AS build
 WORKDIR ./sources
 
+
 # copy everything else and build app
 COPY WebGoatCore/. ./sources/WebGoatCore/
 WORKDIR ./sources/WebGoatCore
